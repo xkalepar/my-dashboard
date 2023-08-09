@@ -8,6 +8,7 @@ import {
   SecurityOutlined,
 } from "@mui/icons-material";
 import Header from "../../components/Header";
+import { Lazy } from "react-lazy";
 
 const Team = () => {
   const theme = useTheme();
@@ -105,5 +106,11 @@ const Team = () => {
     </Box>
   );
 };
-
-export default Team;
+const LazyTeam = () => {
+  return (
+    <Lazy>
+      <Team />
+    </Lazy>
+  );
+};
+export default LazyTeam;
