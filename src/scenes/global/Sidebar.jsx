@@ -92,7 +92,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`${process.env.PUBLIC_URL}/imgs/user.png`}
+                  src={`${process.env.PUBLIC_URL}/imgs/user.jpg`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
